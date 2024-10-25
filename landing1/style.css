@@ -1,0 +1,172 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    background-color: #dbf0cd;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #070707;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0zV9IkzWQeq3whCFepkyQ6OQt4ohgUSw64GpQdHPzaThsEUPLVlPOr_691vFvtOIElHQ&usqp=CAU') no-repeat center center/cover;
+    color: #ffffff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    background-color: #50e470;
+    color: rgb(19, 17, 17);
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cta-btn:hover {
+    background-color: #d51c1c;
+}
+
+/* Services Section */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+    background: url('') no-repeat center center/cover;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #010101;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #548e92;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Upcoming Events Section */
+.upcoming-events {
+    background-color: #c7e5ea;
+    padding: 50px 20px;
+    text-align: center;
+    color: rgb(16, 15, 15);
+}
+
+.upcoming-events h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.upcoming-events ul {
+    list-style: none;
+    padding: 0;
+}
+
+.upcoming-events ul li {
+    background-color: #636364;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #f4f4f4;
+}
+
+
+/* Contact Section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+    background: url('')
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: rgb(12, 10, 10);
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #242020;
+    border-radius: 5px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    background-color: #ffaf5f;
+    color: rgb(140, 62, 62);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #e09f4e;
+}
+
+/* Footer */
+footer {
+    background-color: #1c3d5a;
+    color: rgb(192, 124, 124);
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
